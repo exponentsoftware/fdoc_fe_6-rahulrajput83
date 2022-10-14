@@ -1,31 +1,28 @@
-body {
-    background: black;
-    margin: 0;
-    padding: 0;
-}
 .card {
     color: white;
-    background: rgb(46, 46, 46);
+    background: rgb(15, 15, 15);
     width: fit-content;
-    padding: 1.5rem;
+    padding: 0.9rem;
     display: flex;
     flex-direction: column;
-    border-radius: 0.3rem;
+    border-radius: 0.15rem;
+    margin: 1.5rem 0.6rem;
 }
 
 .card img {
-    width: 12rem;
+    margin: auto;
+    height: 10rem;
+    width: 10rem;
 }
 
 .card .album-name{
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: 600;
     margin: 1rem 0 0.1rem 0;
 }
 
 .card .musician-name {
-    font-size: 1rem;
-    color: rgb(224, 223, 223);
-    text-decoration: underline;
+    font-size: 0.9rem;
+    color: rgb(88, 86, 86);
     margin-bottom: 1rem;
 }
