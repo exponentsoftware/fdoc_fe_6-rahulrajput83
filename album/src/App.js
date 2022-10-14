@@ -3,13 +3,17 @@ import './App.css';
 import Album from './components/Album';
 
 function App() {
-  const [data, setData] = useState({
-    image: 'https://upload.wikimedia.org/wikipedia/en/2/2b/Rockstar_%28soundtrack%29.jpg',
-    album: 'Rockstar',
+  const [albums, setAlbums] = useState({
+    id: '',
     artist: 'A.R. Rahman',
+    album_title: 'Rockstar',
+    album_cover: 'https://upload.wikimedia.org/wikipedia/en/2/2b/Rockstar_%28soundtrack%29.jpg',
+    songs: ''
   })
+
+
   return (
-    <Album data={data} />
+    <Album albums={albums} />
   );
 }
 
